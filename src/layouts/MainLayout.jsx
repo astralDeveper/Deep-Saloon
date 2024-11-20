@@ -5,7 +5,7 @@ import Navbar from "../components/Navbar";
 const MainLayout = () => {
   return (
     <div>
-      <div className="bg-[#161616] w-full" >
+      <div className="bg-[#161616]" >
         <Navbar />
       </div>{" "}
       {/* Navbar will be present across all pages */}

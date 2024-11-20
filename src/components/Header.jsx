@@ -104,7 +104,7 @@ const Header = () => {
 
 
        <div className="flex items-center justify-around  max-lg:hidden ">
-          <nav className="flex items-center justify-evenly p-2 w-[80%] top-0 text-white font-semibold font-secular">
+          <nav className="flex items-center justify-center gap-16 p-2 w-[80%] top-0 text-white font-semibold font-secular">
             <Link to="/" className="">
               Home
             </Link>
@@ -139,7 +139,7 @@ const Header = () => {
 
       {/* Mobile Menu */}
 {menuOpen && (
-  <div className="flex flex-col items-center text-white absolute bg-[#161616] w-full left-0">
+  <div className="flex flex-col items-center text-white absolute bg-[#161616] w-full left-0 z-50">
 
 
     {/* Language Dropdown */}
