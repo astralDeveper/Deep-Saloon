@@ -22,41 +22,13 @@ const Carousel = () => {
     setActiveIndex((prevIndex) => (prevIndex === images.length - 1 ? 0 : prevIndex + 1));
   };
 
-  return (
-    <div id="indicators-carousel" className="relative w-full">
-      {/* Carousel wrapper */}
-      <div className="relative h-56 overflow-hidden rounded-lg md:h-96">
-        {images.map((image, index) => (
-          <div
-            key={index}
-            className={`absolute w-full h-full transition-opacity duration-700 ease-in-out ${activeIndex === index ? 'opacity-100' : 'opacity-0'}`}
-          >
-            <img
-              src={image}
-              className="w-full h-full object-cover"
-              alt={`Slide ${index + 1}`}
-            />
-          </div>
-        ))}
-      </div>
+  return ( 
 
-      {/* Slider indicators */}
-      <div className="absolute z-30 flex -translate-x-1/2 space-x-3 rtl:space-x-reverse bottom-5 left-1/2">
-        {images.map((_, index) => (
-          <button
-            key={index}
-            type="button"
-            className={`w-3 h-3 rounded-full ${activeIndex === index ? 'bg-yellow-500' : 'bg-gray-500'}`}
-            aria-label={`Slide ${index + 1}`}
-            onClick={() => goToSlide(index)}
-          />
-        ))}
-      </div>
-
-      {/* Slider controls */}
-      <button
+<div className='flex justify-between items-center bg-slate-600 '>
+<div>
+  <button
         type="button"
-        className="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+        className="  bg-red-800 p-2 h-24 top-10 bottom-10  start-0 z-30 flex items-center justify-center  cursor-pointer group focus:outline-none"
         onClick={prevSlide}
       >
         <span className="inline-flex items-center justify-center w-10 h-10 rounded-full  group-focus:ring-4 group-focus:ring-yellow-500">
@@ -72,13 +44,38 @@ const Carousel = () => {
           <span className="sr-only">Previous</span>
         </span>
       </button>
+</div>
+ 
 
-      <button
+
+
+ {/* slider */}
+      <div className="relative  overflow-hidden rounded-lg md:h-full w-full bg-red-600">
+        {images.map((image, index) => (
+          <div
+            key={index}
+            className={`absolute w-full h-full transition-opacity duration-700 ease-in-out ${activeIndex === index ? 'opacity-100' : 'opacity-0'}`}
+          >
+            <img
+              src={image}
+              className="w-full h-full object-contain"
+              alt={`Slide ${index + 1}`}
+            />
+          </div>
+        ))}
+
+      </div>
+
+ 
+      {/*  next button s*/}
+
+      <div>
+  <button
         type="button"
-        className="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+        className="  bg-red-800 p-2 h-24 top-10 bottom-10  start-0 z-30 flex items-center justify-center  cursor-pointer group focus:outline-none"
         onClick={nextSlide}
       >
-        <span className="inline-flex items-center justify-center w-10 h-10 rounded-full  group-focus:ring-4 group-focus:ring-yellow-500">
+        <span className="inline-flex items-center justify-center w-10 h-10 rounded-full   ">
           <svg
             className="w-4 h-4 text-yellow-500 dark:text-yellow-400 rtl:rotate-180"
             aria-hidden="true"
@@ -91,7 +88,14 @@ const Carousel = () => {
           <span className="sr-only">Next</span>
         </span>
       </button>
-    </div>
+</div> 
+
+{/* next button e */}
+
+</div>
+
+
+       
   );
 };
 

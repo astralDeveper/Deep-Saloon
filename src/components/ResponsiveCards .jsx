@@ -52,10 +52,10 @@ const ResponsiveCards = () => {
     },
   ];
   return (
-    <main className="flex items-center justify-evenly max-md:flex-col">
+    <main className="flex items-center justify-evenly gap-4 max-lg:flex-col max-xl:gap-4">
       {cardData.map((data, index) => (
-        <div className="border border-yellow-500 p-4 rounded-xl w-[20%] max-lg:w-full max-md:mb-6 bg-[#343434]">
-          <p className="text-yellow-500 font-semibold text-lg p-2">
+        <div className="border border-yellow-500 p-4 rounded-xl w-[fit] max-xl:w-[24%] max-lg:w-full max-md:mb-6 bg-[#343434]">
+          <p className="text-yellow-500 max-lg:font-semibold max-xl:text-sm max-xl:font-normal line-clamp-1 max-lg:text-lg p-2">
             {data.title}
           </p>
           <div key={index} className="text-yellow-500 grid grid-cols-2 gap-6 ">

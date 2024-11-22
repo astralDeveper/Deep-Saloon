@@ -2,18 +2,35 @@ import React from "react";
 import Carousel from "../../components/Carousel";
 import ResponsiveCards from "../../components/ResponsiveCards ";
 import Cardsres from "../../components/Cardsres";
+import img1 from "../../assets/Home/huge1.png"
+import img2 from "../../assets/Home/huge2.png"
+import img3 from "../../assets/Home/huge3.png"
+import img4 from "../../assets/Home/huge4.png"
+import TodayDeals from "../../components/TodayDeals";
+import OverServices from "../../components/OverServices";
+
+
+
+
+
+
+
 
 const Home = () => {
+
   const services = [
-    { name: "Upper Lips Thread", image: "/images/upper-lips.jpg" },
-    { name: "Threading", image: "/images/threading.jpg" },
-    { name: "Waxing", image: "/images/waxing.jpg" },
-    { name: "Oil Massage", image: "/images/oil-massage.jpg" },
+    { name: "Upper Lips Thread", image: img1 },
+    { name: "Threading", image: img2 },
+    { name: "Waxing", image: img3 },
+    { name: "Oil Massage", image: img4 },
   ];
+
+
   return (
+ 
     <main className="bg-[#161616]" >
-      <div className="bg-[#7a7a7a]">
-        <div className="w-[86%] mx-auto p-2 z-50">
+      <div className="bg-[#7a7a7a]  ">
+        <div className=" mx-auto p-2">
           <Carousel />
         </div>
       </div>
@@ -24,9 +41,9 @@ const Home = () => {
        </div>
         
 
-        <div className="flex items-center justify-evenly mt-16 max-md:mt-0 mx-auto ml-16 max-md:ml-0 max-md:flex-col  " >
+        <div className="flex items-center justify-center gap-5 w-full mt-16 max-md:mt-0 mx-auto  max-md:ml-0 max-lg:flex-col  " >
 
-          <div className="bg-[#161616] rounded-lg border-2 border-yellow-500 p-3 w-[80%] max-md:w-full  mt-8 ">
+          <div className="bg-[#161616] rounded-lg border-2 border-yellow-500 p-3 w-[98%] max-md:w-full  mt-8 ">
              <h2 className="text-center text-xl font-bold mb-6 text-yellow-500">
                 Under 499/-
             </h2>
@@ -41,17 +58,22 @@ const Home = () => {
                ))}
             </div>
           </div>
-
-          <div className="w-full max-md:flex max-md:flex-col max-md:mt-8 ">
+          <div className="max-md:flex max-lg:flex-col max-lg:mt-8 w-full  ">
           <Cardsres/>
           </div>
-
-
-
-
-
-
         </div>
+
+        <div>
+          <TodayDeals/>
+        </div>
+
+        <div>
+          <OverServices/>
+        </div>
+
+
+
+
 
 
 
