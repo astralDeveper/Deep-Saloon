@@ -15,6 +15,7 @@ export default {
         BackgroundColor1:'#343434',
         BackgroundColor2:'#161616',
         BackgroundColor3:'#473A12',
+        BackgroundColor4:'#D4AF37',
         BgCompColor3:'#131722',
         LableColor3:'#FF4040',
         textColor1: '#CCCCCC',
@@ -30,6 +31,10 @@ export default {
         PlaceholderColor: '#A0A4AC',
         InputFieldColor: '#F8F7FB',
         NavButtonBg: '#52EAFF',
+      },
+      boxShadow: {
+        custom: '24px -22px 18px -5px rgba(225,196,91,0.72) inset',
+        customHover: '0 6px 20px rgba(0, 0, 0, 0.5)',
       },
     },
   },

@@ -1,13 +1,13 @@
 import { createBrowserRouter } from 'react-router-dom';
 import Home from '../../screens/Home/Home';
 import MainLayout from '../../layouts/MainLayout';
-import ProtectedRouts from "./ProtectedRouts"
-import AboutUs from '../../screens/AboutUs/AboutUs';
+import ProtectedRouts from "./ProtectedRouts" 
 import Services from '../../screens/SERVICES/Services';
 import CountactUs from '../../screens/CountactUs/CountactUs';
 import GiftCard from '../../screens/GiftCard/GiftCard';
 import MemberShip from '../../screens/MemberShip/MemberShip';
 import Favorites from '../../screens/Favorites/Favorites';
+import AboutUs from '../../screens/AboutUs';
 
 export const Router = createBrowserRouter([
   {

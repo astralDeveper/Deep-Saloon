@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import pkimg from "../assets/header/pk.svg";
 import { Link, NavLink } from "react-router-dom";
 import { RiArrowDropDownFill, RiMapPinLine, RiShoppingCartLine, RiMenuLine, RiCloseLine } from "@remixicon/react";
 import SearchBar from "./Searchbar";
@@ -40,7 +39,7 @@ const Header = () => {
         {/* Language Dropdown */}
         <div className="relative group max-md:hidden ">
           <button className="flex items-center px-4 py-2">
-            <img src={pkimg} alt="pk" className="w-5 h-5 mr-2" />
+            <img src={IMAGES.PK} alt="pk" className="w-5 h-5 mr-2" />
             <RiArrowDropDownFill />
           </button>
           <div className="absolute hidden group-hover:block w-48 bg-white border border-gray-200 rounded-md shadow-lg z-50 ">
@@ -124,7 +123,7 @@ const Header = () => {
             MEMBERSHIP
             </Link>
             <Link to="/favorites" className="">
-            Favorites
+            FAVORITES
             </Link>
           </nav>
         </div>
@@ -226,7 +225,7 @@ const Header = () => {
             MEMBERSHIP
             </Link>
             <Link to="/favorites" className="">
-            Favorites
+            FAVORITES
             </Link>
     </div>
   </div>

@@ -100,3 +100,151 @@ export const ratingCardsData=[
     qty:"40"
   }
 ]
+
+export const carouselData=[
+  {
+    img:IMAGES.YOUTUB1
+  },
+  {
+    img:IMAGES.YOUTUB2
+  },
+  {
+    img:IMAGES.YOUTUB3
+  },
+  {
+    img:IMAGES.YOUTUB1
+  },
+  {
+    img:IMAGES.YOUTUB2
+  },
+  {
+    img:IMAGES.YOUTUB3
+  }
+]
+
+export const services = [
+  { name: "Upper Lips Thread", image: IMAGES.HUGE1 },
+  { name: "Threading", image: IMAGES.HUGE2 },
+  { name: "Waxing", image: IMAGES.HUGE3 },
+  { name: "Oil Massage", image:IMAGES.HUGE4  },
+];
+
+export const cardSData = [
+  {
+    title: "Pickup where you left off",
+    img1: IMAGES.SER11,
+    imageTitle1: "Pedicure",
+    img2: IMAGES.SER9,
+    imageTitle2: "Facial",
+    img3: IMAGES.SER10,
+    imageTitle3: "Nail Art",
+    img4: IMAGES.SER1,
+    imageTitle4: "Makeup",
+  },
+  {
+    title: "Keep shopping for",
+    img1: IMAGES.SER11,
+    imageTitle1: "Pedicure",
+    img2: IMAGES.SER9,
+    imageTitle2: "Facial",
+    img3: IMAGES.SER10,
+    imageTitle3: "Nail Art",
+    img4: IMAGES.SER1,
+    imageTitle4: "Makeup",
+  },
+];
+
+
+export const OverService = [
+  {
+    id: 1,
+    title: "Professional Makeup",
+    image:IMAGES.SER1,
+  },
+  {
+    id: 2,
+    title: "Facial",
+    image: IMAGES.SER9,
+  },
+  {
+    id: 3,
+    title: "Pedicure",
+    image: IMAGES.SER11,
+  },
+  {
+    id: 4,
+    title: "Nail Art",
+    image: IMAGES.SER10,
+  },
+];
+
+export const cardData = [
+  {
+    title: "Pickup where you left off",
+    img1: IMAGES.SER11,
+    imageTitle1: "Pedicure",
+    img2: IMAGES.SER9,
+    imageTitle2: "Facial",
+    img3: IMAGES.SER10,
+    imageTitle3: "Nail Art",
+    img4: IMAGES.SER1,
+    imageTitle4: "Makeup",
+  },
+  {
+    title: "Keep shopping for",
+    img1: IMAGES.SER11,
+    imageTitle1: "Pedicure",
+    img2: IMAGES.SER9,
+    imageTitle2: "Facial",
+    img3: IMAGES.SER10,
+    imageTitle3: "Nail Art",
+    img4: IMAGES.SER1,
+    imageTitle4: "Makeup",
+  },
+  {
+    title: "Buy again",
+    img1: IMAGES.SER11,
+    imageTitle1: "Pedicure",
+    img2: IMAGES.SER9,
+    imageTitle2: "Facial",
+    img3: IMAGES.SER10,
+    imageTitle3: "Nail Art",
+    img4: IMAGES.SER1,
+    imageTitle4: "Makeup",
+  },
+  {
+    title: "Categories to explore",
+    img1: IMAGES.SER11,
+    imageTitle1: "Pedicure",
+    img2: IMAGES.SER9,
+    imageTitle2: "Facial",
+    img3: IMAGES.SER10,
+    imageTitle3: "Nail Art",
+    img4: IMAGES.SER1,
+    imageTitle4: "Makeup",
+  },
+];
+
+
+export const deals = [
+  {
+    id: 1,
+    title: "Peeling Treatment",
+    image: IMAGES.HOMEDEAL1,
+  },
+  {
+    id: 2,
+    title: "Peel Off Mask",
+    image: IMAGES.HOMEDEAL2,
+  },
+  {
+    id: 3,
+    title: "Threading",
+    image: IMAGES.HOMEDEAL3,
+  },
+  {
+    id: 4,
+    title: "Hair Spa",
+    image: IMAGES.HOMEDEAL4,
+  },
+];

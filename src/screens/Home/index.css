@@ -1,0 +1,29 @@
+.threeText {
+    line-height: 1;
+    color:#e1c45b;
+    font-weight:bold;
+    font-size:33px;
+    padding-left: 70px;
+    text-shadow:0px 0px 0 rgb(195,166,61),1px 1px 0 rgb(175,146,41),2px 2px 0 rgb(155,126,21),3px 3px 0 rgb(135,106,1),4px 4px 0 rgb(115,86,-19),5px 5px 0 rgb(95,66,-39),6px 6px 0 rgb(75,46,-59), 7px 7px 0 rgb(55,26,-79),8px 8px 7px rgba(0,0,0,0.55),8px 8px 1px rgba(0,0,0,0.5),0px 0px 7px rgba(0,0,0,.2);}
+
+
+    .boxShadow {
+        box-shadow: 
+          6px 6px 10px rgb(195, 166, 61),
+          1px 1px 6px rgb(175, 146, 41),
+          2px 2px 7px rgb(155, 126, 21),
+          3px 3px 5px rgb(135, 106, 1),
+          4px 4px 4px rgb(115, 86, 0),
+          5px 5px 5px rgb(95, 66, 0),
+          6px 6px 4px rgb(75, 46, 0),
+          7px 7px 7px rgb(55, 26, 0),
+          8px 8px 7px rgba(0, 0, 0, 0.55),
+          8px 8px 1px rgba(0, 0, 0, 0.5),
+          0px 0px 7px rgba(0, 0, 0, 0.2);
+      }
+
+      .boxBorder {
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, #E1C45B 1px 1px 20px 0px;
+      }
+
+      
