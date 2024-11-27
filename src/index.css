@@ -7,3 +7,69 @@
 }
 
     
+@layer utilities {
+    .mainheadings {
+      @apply text-4xl text-textColor3 font-semibold;
+    }
+    .text1 {
+      @apply text-lg text-textColor2;
+    }
+    .heading1{
+      @apply text-textColor4 font-bold text-3xl flex items-center justify-center mt-10 max-sm:text-2xl;
+    }
+    .mainheading{
+      @apply font-medium text-textColor3 text-[101px] md:text-[50px] ;
+  }
+  .subheading{
+      @apply font-medium text-textColor3 text-[97px] md:text-[48px];
+  }
+  .minheading{
+      @apply font-medium text-[91px] text-textColor3 md:text-[40px] ;
+  }
+  .headings{
+      @apply font-bold text-[56px] text-textColor2 md:text[28px] ;
+  }
+  .heading2{
+      @apply font-medium text-[58px] text-textColor3 md:text-[29px];
+  }
+  .heading3{
+      @apply font-bold text-[60px] text-textColor2 md:text[30px];
+  }
+  .heading4{
+      @apply font-medium text-[46px] text-textColor2 md:text-[23px];
+  }
+  .heading5{
+      @apply font-medium text-[35px] text-textColor3 md:text-[17px];
+  }
+  .heading6{
+      @apply font-medium text-[49px] text-textColor3 md:text-[2px];
+  }
+  
+  .text1{
+      @apply text-[25px] text-textColor2 font-medium md:text-[12px] ;
+  }
+  .text2{
+      @apply text-[18px] text-textColor2 md:text-[9px] ;
+  }
+  .text3{
+      @apply text-[28px] text-textColor2 font-medium md:text-[14px] ;
+  }
+  .text4{
+      @apply text-[31px] text-textColor2 font-black md:text-[15px] ;
+  }
+  .text5{
+      @apply text-[22px] font-medium text-textColor2 md:text-[11px] ;
+  }
+  .text6{
+      @apply text-[85px] font-bold text-textColor7 md:text-[42px] ;
+  }
+  .text7{
+      @apply text-[20px] text-textColor4 font-medium md:text-[10px] ;
+  }
+  .text8{
+      @apply text-[12px] text-textColor4 font-medium md:text-[6px] ;
+  }
+  .text9{
+      @apply text-[55px] text-textColor4 font-medium md:text-[6px] ;
+  }
+  }

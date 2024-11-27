@@ -7,10 +7,10 @@ const ResponsiveCards = () => {
     <main className="flex items-center justify-evenly gap-4 max-lg:flex-col max-xl:gap-4">
       {cardData.map((data, index) => (
         <div className="border-2 border-textColor4 p-4 rounded-xl lg:text-lg lg:font-semibold w-[fit] max-xl:w-[24%] max-lg:w-full max-md:mb-6 bg-[#343434]">
-          <p className="text-textColor3 max-lg:font-semibold max-xl:text-sm max-xl:font-normal line-clamp-1 max-lg:text-lg p-2">
+          <p className="text-textColor3 max-lg:font-semibold max-xl:text-sm max-xl:font-normal line-clamp-1 max-lg:text-lg p-2 mb-4">
             {data.title}
           </p>
-          <div key={index} className="text-textColor2 text-lg grid grid-cols-2 lg:font-normal gap-6 ">
+          <div key={index} className="text1 grid grid-cols-2 lg:font-normal gap-6 ">
             <div>
               <img src={data.img1} alt="" />
               <p>{data.imageTitle1}</p>

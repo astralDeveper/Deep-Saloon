@@ -8,7 +8,7 @@ const TodayDeals = () => {
       {/* Heading */}
       <div className="flex items-center justify-center gap-8 max-md:gap-4  ">
          <div className="h-1 w-24 bg-textColor4"></div>
-        <h2 className="text-3xl max-md:text-lg max-md:font-normal font-bold text-textColor3">Today's Deals</h2>
+        <h2 className="max-md:text-lg max-md:font-normal mainheading">Today's Deals</h2>
         <div className="h-1 w-24 bg-textColor4"></div>
       </div>
 

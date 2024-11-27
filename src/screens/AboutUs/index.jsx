@@ -28,6 +28,7 @@ const AboutUs = () => {
       <Card/>
       <OurMission/>
       <TeamMembers/>
+      
     </div>
   )
 }

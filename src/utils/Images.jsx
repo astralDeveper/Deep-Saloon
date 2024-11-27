@@ -93,7 +93,15 @@ const imageNames = [
 "whatsapp",
 "youtubebutton",
 "pk",
-"dotted1"
+"dotted1",
+"google",
+"container",
+"review",
+"review1",
+"review2",
+"review3",
+"review4",
+"review5",
 
 ];
 

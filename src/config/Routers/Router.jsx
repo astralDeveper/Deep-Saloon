@@ -8,6 +8,7 @@ import GiftCard from '../../screens/GiftCard/GiftCard';
 import MemberShip from '../../screens/MemberShip/MemberShip';
 import Favorites from '../../screens/Favorites/Favorites';
 import AboutUs from '../../screens/AboutUs';
+import Articles from '../../screens/Articles';
 
 export const Router = createBrowserRouter([
   {
@@ -42,6 +43,7 @@ export const Router = createBrowserRouter([
         path: "/favorites",
         element: <ProtectedRouts component={<Favorites />}/> ,
       },
+      
     ],
   },
 ]);

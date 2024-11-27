@@ -1,11 +1,13 @@
-import React, { useState } from "react";
+import React, { useContext, useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 import { RiArrowDropDownFill, RiMapPinLine, RiShoppingCartLine, RiMenuLine, RiCloseLine } from "@remixicon/react";
 import SearchBar from "./Searchbar";
 import { IMAGES } from "../utils/Images";
+import ThemeContext from "../ThemeProvider";
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
+  const { isDarkMode, toggleTheme } = useContext(ThemeContext);
 
   const toggleMenu = () => {
     setMenuOpen((prev) => !prev);
@@ -38,7 +40,7 @@ const Header = () => {
 
         {/* Language Dropdown */}
         <div className="relative group max-md:hidden ">
-          <button className="flex items-center px-4 py-2">
+          {/* <button className="flex items-center px-4 py-2">
             <img src={IMAGES.PK} alt="pk" className="w-5 h-5 mr-2" />
             <RiArrowDropDownFill />
           </button>
@@ -48,7 +50,13 @@ const Header = () => {
                 {lang}
               </a>
             ))}
-          </div>
+          </div> */}
+           <button
+        onClick={toggleTheme}
+        className="px-4 py-2 rounded-full bg-blue-500 dark:bg-yellow-500 text-white"
+      >
+        {isDarkMode ? 'Light Mode' : 'Dark Mode'}
+      </button>
         </div>
 
         {/* Account Info Dropdown */}

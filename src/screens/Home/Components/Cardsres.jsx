@@ -7,7 +7,7 @@ const Cardsres = () => {
     <main className="flex items-center justify-center gap-4 max-lg:flex-col max-xl:gap-4">
     {cardSData.map((data, index) => (
       <div className="border-2 border-textColor4 p-4 rounded-xl lg:text-lg lg:font-semibold  max-lg:w-fit max-md:mb-6 bg-[#343434]">
-        <p className="text-textColor3 max-lg:font-semibold max-xl:text-sm max-xl:font-normal line-clamp-1 max-lg:text-lg p-2">
+        <p className="text-textColor3 max-lg:font-semibold max-xl:text-sm max-xl:font-normal line-clamp-1 max-lg:text-lg p-2 mb-4">
           {data.title}
         </p>
         <div key={index} className="text-textColor2 text-lg font-normal grid grid-cols-2 gap-6 ">
