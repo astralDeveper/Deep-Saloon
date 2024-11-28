@@ -102,6 +102,11 @@ const imageNames = [
 "review3",
 "review4",
 "review5",
+"tick",
+"starblank",
+"avatar1",
+"avatar2",
+"avatar3",
 
 ];
 
@@ -112,3 +117,4 @@ const IMAGES = imageNames.reduce((acc, name) => {
 
 
 export { IMAGES };
+

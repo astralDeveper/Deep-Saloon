@@ -1,5 +1,3 @@
-// import { IMAGES } from "./Images";
-
 import { IMAGES } from "./Images";
 
 // export const startTestData = [
@@ -68,57 +66,57 @@ export const sidebarContact = [
   },
 ];
 
-export const ratingCardsData=[
+export const ratingCardsData = [
   {
-    title:"Total Users",
-    hilight:"",
-    icon:IMAGES.GROUP,
-    qty:"40"
+    title: "Total Users",
+    hilight: "",
+    icon: IMAGES.GROUP,
+    qty: "40"
   },
   {
-    title:"Total Travel Agents",
-    hilight:"",
-    icon:IMAGES.FRAME,
-    qty:"40"
+    title: "Total Travel Agents",
+    hilight: "",
+    icon: IMAGES.FRAME,
+    qty: "40"
   },
   {
-    title:"Active Umrah Offers",
-    hilight:"",
-    icon:IMAGES.TICKET,
-    qty:"40"
+    title: "Active Umrah Offers",
+    hilight: "",
+    icon: IMAGES.TICKET,
+    qty: "40"
   },
   {
-    title:"Active Holiday Offers",
-    hilight:"",
-    icon:IMAGES.AIRPLANE,
-    qty:"40"
+    title: "Active Holiday Offers",
+    hilight: "",
+    icon: IMAGES.AIRPLANE,
+    qty: "40"
   },
   {
-    title:"Total Offers ",
-    hilight:"*Including expired offers",
-    icon:IMAGES.PERCENT,
-    qty:"40"
+    title: "Total Offers ",
+    hilight: "*Including expired offers",
+    icon: IMAGES.PERCENT,
+    qty: "40"
   }
 ]
 
-export const carouselData=[
+export const carouselData = [
   {
-    img:IMAGES.YOUTUB1
+    img: IMAGES.YOUTUB1
   },
   {
-    img:IMAGES.YOUTUB2
+    img: IMAGES.YOUTUB2
   },
   {
-    img:IMAGES.YOUTUB3
+    img: IMAGES.YOUTUB3
   },
   {
-    img:IMAGES.YOUTUB1
+    img: IMAGES.YOUTUB1
   },
   {
-    img:IMAGES.YOUTUB2
+    img: IMAGES.YOUTUB2
   },
   {
-    img:IMAGES.YOUTUB3
+    img: IMAGES.YOUTUB3
   }
 ]
 
@@ -126,7 +124,7 @@ export const services = [
   { name: "Upper Lips Thread", image: IMAGES.HUGE1 },
   { name: "Threading", image: IMAGES.HUGE2 },
   { name: "Waxing", image: IMAGES.HUGE3 },
-  { name: "Oil Massage", image:IMAGES.HUGE4  },
+  { name: "Oil Massage", image: IMAGES.HUGE4 },
 ];
 
 export const cardSData = [
@@ -154,12 +152,11 @@ export const cardSData = [
   },
 ];
 
-
 export const OverService = [
   {
     id: 1,
     title: "Professional Makeup",
-    image:IMAGES.SER1,
+    image: IMAGES.SER1,
   },
   {
     id: 2,
@@ -225,7 +222,6 @@ export const cardData = [
   },
 ];
 
-
 export const deals = [
   {
     id: 1,
@@ -249,126 +245,248 @@ export const deals = [
   },
 ];
 
-
-export const  AboutOurMissionData = 
-[
+export const AboutOurMissionData =
+  [
     {
-        heading: 'MEET YOUR EXPECTATIONS',
-        description: 'At Deep Beauty Parlour, we only offer the highest quality Beauty Salon services. Take a look at our wide range of treatments and special pampering options we offer.'
+      heading: 'MEET YOUR EXPECTATIONS',
+      description: 'At Deep Beauty Parlour, we only offer the highest quality Beauty Salon services. Take a look at our wide range of treatments and special pampering options we offer.'
     },
     {
-        heading: 'Our Policy',
-        description: 'At DEEP BEAUTY PARLOUR, we go out of our way to make sure our valued clients have the best experience possible, from the minute they enter our doors to the moment they leave our incomparable Salon. Please take a moment to review our policies to ensure you understand our operations procedures. If you have any questions,just get in touch and we`ll be happy to help.'
+      heading: 'Our Policy',
+      description: 'At DEEP BEAUTY PARLOUR, we go out of our way to make sure our valued clients have the best experience possible, from the minute they enter our doors to the moment they leave our incomparable Salon. Please take a moment to review our policies to ensure you understand our operations procedures. If you have any questions,just get in touch and we`ll be happy to help.'
     }
-] 
-
+  ]
 
 export const AboutCardData = [
   {
-      id: 1,
-      heading: 'SINCE 1999',
-      text: 'DEEP BEAUTY PARLOUR is a premier Salon with the best make-up artist in the Jabalpur area. Since 1999, we`ve offered a wide range of services and products to give you the elegant and fabulous look that you deserve. Deep Salon provides the best professional hair styling and exclusive beautician services with well-trained makeup artists and stylists. Scroll onto book an appointment or enjoy our walk-in services.',
-      image: IMAGES.ABOUT3
+    id: 1,
+    heading: 'SINCE 1999',
+    text: 'DEEP BEAUTY PARLOUR is a premier Salon with the best make-up artist in the Jabalpur area. Since 1999, we`ve offered a wide range of services and products to give you the elegant and fabulous look that you deserve. Deep Salon provides the best professional hair styling and exclusive beautician services with well-trained makeup artists and stylists. Scroll onto book an appointment or enjoy our walk-in services.',
+    image: IMAGES.ABOUT3
   },
   {
-      id: 2,
-      heading: 'OUR MOTTO',
-      text: 'Over the years, our expert team has had one mission—to make ourdevoted customers look stunning and feel their best. Contact us and see what our team of qualified professionals can do for you today or simply drop in and take advantage of our convenient walk-in service.Over the years, our expert team has had one mission to make our devoted customers look stunning and feel their best. Contact us and see what our team of qualified professionals can do for you today or simply drop in and take advantage of our convenient walk-in service.',
-      image: IMAGES.ABOUT3
+    id: 2,
+    heading: 'OUR MOTTO',
+    text: 'Over the years, our expert team has had one mission—to make ourdevoted customers look stunning and feel their best. Contact us and see what our team of qualified professionals can do for you today or simply drop in and take advantage of our convenient walk-in service.Over the years, our expert team has had one mission to make our devoted customers look stunning and feel their best. Contact us and see what our team of qualified professionals can do for you today or simply drop in and take advantage of our convenient walk-in service.',
+    image: IMAGES.ABOUT3
   }
 
 ]
-
-
 
 export const AboutTeamMemberData = [
   {
-    image:IMAGES.MEMBER1,
-    name:'Jenny Wilson',
-    position:'Role of the member'
+    image: IMAGES.MEMBER1,
+    name: 'Jenny Wilson',
+    position: 'Role of the member'
   },
   {
-    image:IMAGES.MEMBER2,
-    name:'Brooklyn Simmons',
-    position:'Role of the member'
+    image: IMAGES.MEMBER2,
+    name: 'Brooklyn Simmons',
+    position: 'Role of the member'
   }, {
-    image:IMAGES.MEMBER3,
-    name:'Darlene Robertson',
-    position:'Role of the member'
+    image: IMAGES.MEMBER3,
+    name: 'Darlene Robertson',
+    position: 'Role of the member'
   }, {
-    image:IMAGES.MEMBER4,
-    name:'Jane Cooper',
-    position:'Role of the member'
-  }, 
-  
+    image: IMAGES.MEMBER4,
+    name: 'Jane Cooper',
+    position: 'Role of the member'
+  },
+
   {
-    image:IMAGES.MEMBER5,
-    name:'Eleanor Pena',
-    position:'Role of the member'
+    image: IMAGES.MEMBER5,
+    name: 'Eleanor Pena',
+    position: 'Role of the member'
   }, {
-    image:IMAGES.MEMBER6,
-    name:'Theresa Webb',
-    position:'Role of the member'
+    image: IMAGES.MEMBER6,
+    name: 'Theresa Webb',
+    position: 'Role of the member'
   }, {
-    image:IMAGES.MEMBER7,
-    name:'Albert Flores',
-    position:'Role of the member'
+    image: IMAGES.MEMBER7,
+    name: 'Albert Flores',
+    position: 'Role of the member'
   }, {
-    image:IMAGES.MEMBER8,
-    name:'Wade Warren',
-    position:'Role of the member'
-  } 
+    image: IMAGES.MEMBER8,
+    name: 'Wade Warren',
+    position: 'Role of the member'
+  }
 ]
 
-export const ReviewCrousalData =[
+export const ReviewCrousalData = [
   {
-    title:"Himanshu Pa…",
-    date:"2 months ago",
-    message:"👍👍👍",
-    icon:IMAGES.REVIEW1
+    title: "Himanshu Pa…",
+    date: "2 months ago",
+    message: "👍👍👍",
+    icon: IMAGES.REVIEW1
   },
   {
-    title:"Himanshu Pa…",
-    date:"2 months ago",
-    message:"👍👍👍",
-    icon:IMAGES.REVIEW2
+    title: "Himanshu Pa…",
+    date: "2 months ago",
+    message: "Was a wonderful experience",
+    icon: IMAGES.REVIEW2
   },
   {
-    title:"Himanshu Pa…",
-    date:"2 months ago",
-    message:"👍👍👍",
-    icon:IMAGES.REVIEW3
+    title: "Himanshu Pa…",
+    date: "2 months ago",
+    message: "Excellent",
+    icon: IMAGES.REVIEW3
   }
   ,
   {
-    title:"Himanshu Pa…",
-    date:"2 months ago",
-    message:"👍👍👍",
-    icon:IMAGES.REVIEW4
-  },{
-    title:"Himanshu Pa…",
-    date:"2 months ago",
-    message:"👍👍👍",
-    icon:IMAGES.REVIEW5
-  },{
-    title:"Himanshu Pa…",
-    date:"2 months ago",
-    message:"👍👍👍",
-    icon:IMAGES.REVIEW1
-  },{
-    title:"Himanshu Pa…",
-    date:"2 months ago",
-    message:"👍👍👍",
-    icon:IMAGES.REVIEW2
-  },{
-    title:"Himanshu Pa…",
-    date:"2 months ago",
-    message:"👍👍👍",
-    icon:IMAGES.REVIEW3
-  },{
-    title:"Himanshu Pa…",
-    date:"2 months ago",
-    message:"👍👍👍",
-    icon:IMAGES.REVIEW4
+    title: "Himanshu Pa…",
+    date: "2 months ago",
+    message: "Very good service and good behaviour",
+    icon: IMAGES.REVIEW4
+  }, {
+    title: "Himanshu Pa…",
+    date: "2 months ago",
+    message: "👍👍👍",
+    icon: IMAGES.REVIEW1
+  },
+  {
+    title: "Himanshu Pa…",
+    date: "2 months ago",
+    message: "Was a wonderful experience",
+    icon: IMAGES.REVIEW2
+  },
+  {
+    title: "Himanshu Pa…",
+    date: "2 months ago",
+    message: "Excellent",
+    icon: IMAGES.REVIEW3
   }
+  ,
+  {
+    title: "Himanshu Pa…",
+    date: "2 months ago",
+    message: "Very good service and good behaviour",
+    icon: IMAGES.REVIEW4
+  }
+]
+
+export const ArticleCardData = [
+  {
+    image: IMAGES.ARTICAL1,
+    title: 'Glow Up Guide',
+    calenderimage: IMAGES.CALENDER,
+    date: 'Jan 24, 22023',
+    description: 'Discover expert tips to achieve a natural, radiant glow with skincare and lifestyle tip......'
+  }, {
+    image: IMAGES.ARTICAL2,
+    title: 'Glow Up Guide',
+    calenderimage: IMAGES.CALENDER,
+    date: 'Jan 24, 22023',
+    description: 'Discover expert tips to achieve a natural, radiant glow with skincare and lifestyle tip......'
+  }, {
+    image: IMAGES.ARTICAL3,
+    title: 'Glow Up Guide',
+    calenderimage: IMAGES.CALENDER,
+    date: 'Jan 24, 22023',
+    description: 'Discover expert tips to achieve a natural, radiant glow with skincare and lifestyle tip......'
+  }, {
+    image: IMAGES.ARTICAL3,
+    title: 'Glow Up Guide',
+    calenderimage: IMAGES.CALENDER,
+    date: 'Jan 24, 22023',
+    description: 'Discover expert tips to achieve a natural, radiant glow with skincare and lifestyle tip......'
+  }, {
+    image: IMAGES.ARTICAL1,
+    title: 'Glow Up Guide',
+    calenderimage: IMAGES.CALENDER,
+    date: 'Jan 24, 22023',
+    description: 'Discover expert tips to achieve a natural, radiant glow with skincare and lifestyle tip......'
+  }, {
+    image: IMAGES.ARTICAL2,
+    title: 'Glow Up Guide',
+    calenderimage: IMAGES.CALENDER,
+    date: 'Jan 24, 22023',
+    description: 'Discover expert tips to achieve a natural, radiant glow with skincare and lifestyle tip......'
+  }, {
+    image: IMAGES.ARTICAL2,
+    title: 'Glow Up Guide',
+    calenderimage: IMAGES.CALENDER,
+    date: 'Jan 24, 22023',
+    description: 'Discover expert tips to achieve a natural, radiant glow with skincare and lifestyle tip......'
+  }, {
+    image: IMAGES.ARTICAL3,
+    title: 'Glow Up Guide',
+    calenderimage: IMAGES.CALENDER,
+    date: 'Jan 24, 22023',
+    description: 'Discover expert tips to achieve a natural, radiant glow with skincare and lifestyle tip......'
+  }, {
+    image: IMAGES.ARTICAL1,
+    title: 'Glow Up Guide',
+    calenderimage: IMAGES.CALENDER,
+    date: 'Jan 24, 22023',
+    description: 'Discover expert tips to achieve a natural, radiant glow with skincare and lifestyle tip......'
+  },
+]
+ 
+
+
+
+
+export const TestimonialCardData = [
+  {
+    image: IMAGES.AVATAR1,
+    name: 'Jerome Bell',
+    company: 'Google',
+    description: '“This guy is true professional and very experienced in migration and server configuration. He was able to complete my order in time and as per agreed scope. Highly recommend!”',
+    rating: 1
+  },
+  {
+    image: IMAGES.AVATAR2,
+    name: 'Jerome Bell',
+    company: 'Netflix',
+    description: '““Less than 24h turn around. Easy communication. Did exactly as offered, all around a perfect experience.””',
+    rating: 2
+  },
+   {
+    image: IMAGES.AVATAR3,
+    name: 'Jerome Bell',
+    company: 'Whatsapp',
+    description: '“Golio is one of the BEST web designers I`ve ever worked with professionally. I am a repeat customer who continues to work with Zakir because of his talent/skills, great customer service, work ethic, and attention to detail.”',
+    rating: 5
+  },
+  {
+    image: IMAGES.AVATAR1,
+    name: 'Jerome Bell',
+    company: 'Google',
+    description: '“This guy is true professional and very experienced in migration and server configuration. He was able to complete my order in time and as per agreed scope. Highly recommend!”',
+    rating: 5
+  },
+  {
+    image: IMAGES.AVATAR3,
+    name: 'Jerome Bell',
+    company: 'Whatsapp',
+    description: '“Golio is one of the BEST web designers I`ve ever worked with professionally. I am a repeat customer who continues to work with Zakir because of his talent/skills, great customer service, work ethic, and attention to detail.”',
+    rating: 5
+  }, {
+    image: IMAGES.AVATAR2,
+    name: 'Jerome Bell',
+    company: 'Netflix',
+    description: '““Less than 24h turn around. Easy communication. Did exactly as offered, all around a perfect experience.””',
+    rating: 5
+  }, {
+    image: IMAGES.AVATAR2,
+    name: 'Jerome Bell',
+    company: 'Netflix',
+    description: '““Less than 24h turn around. Easy communication. Did exactly as offered, all around a perfect experience.””',
+    rating: 5
+  },
+  {
+    image: IMAGES.AVATAR1,
+    name: 'Jerome Bell',
+    company: 'Google',
+    description: '“This guy is true professional and very experienced in migration and server configuration. He was able to complete my order in time and as per agreed scope. Highly recommend!”',
+    rating: 5
+  }, 
+  {
+    image: IMAGES.AVATAR3,
+    name: 'Jerome Bell',
+    company: 'Whatsapp',
+    description: '“Golio is one of the BEST web designers I`ve ever worked with professionally. I am a repeat customer who continues to work with Zakir because of his talent/skills, great customer service, work ethic, and attention to detail.”',
+    rating: 5
+  },
+
 ]

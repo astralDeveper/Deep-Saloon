@@ -6,14 +6,7 @@
     box-shadow: 24px -22px 18px -5px rgba(225, 196, 91, 0.72) inset;
 }
 
-    
 @layer utilities {
-    .mainheadings {
-      @apply text-4xl text-textColor3 font-semibold;
-    }
-    .text1 {
-      @apply text-lg text-textColor2;
-    }
     .heading1{
       @apply text-textColor4 font-bold text-3xl flex items-center justify-center mt-10 max-sm:text-2xl;
     }
@@ -36,20 +29,26 @@
       @apply font-bold text-[60px] text-textColor2 md:text[30px];
   }
   .heading4{
-      @apply font-medium text-[46px] text-textColor2 md:text-[23px];
+      @apply font-medium lg:text-[45px] text-textColor2 md:text-[23px];
   }
   .heading5{
-      @apply font-medium text-[35px] text-textColor3 md:text-[17px];
+      @apply font-medium lg:text-[35px] text-textColor3 md:text-[17px];
   }
   .heading6{
-      @apply font-medium text-[49px] text-textColor3 md:text-[2px];
+      @apply font-medium lg:text-[49px] text-textColor3 md:text-[28px];
+  }
+  .heading7{
+      @apply font-medium lg:text-[23px] text-textColor3 md:text-[12px];
+  }
+  .heading8{
+      @apply font-medium lg:text-[43px] md:text-[21px];
   }
   
   .text1{
       @apply text-[25px] text-textColor2 font-medium md:text-[12px] ;
   }
   .text2{
-      @apply text-[18px] text-textColor2 md:text-[9px] ;
+      @apply lg:text-[18px] text-textColor2 md:text-[9px] ;
   }
   .text3{
       @apply text-[28px] text-textColor2 font-medium md:text-[14px] ;
@@ -70,6 +69,10 @@
       @apply text-[12px] text-textColor4 font-medium md:text-[6px] ;
   }
   .text9{
-      @apply text-[55px] text-textColor4 font-medium md:text-[6px] ;
+      @apply text-[55px] text-textColor4 font-medium lg:text-[50px] ;
   }
+  .text10{
+      @apply lg:text-[28px] text-textColor4 font-medium md:text-[14px] ;
+  }
+
   }

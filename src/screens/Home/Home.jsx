@@ -40,13 +40,13 @@ const Home = () => {
 
         <div className="flex items-center justify-center gap-5 w-full mt-16 max-md:mt-0 mx-auto  max-md:ml-0 max-lg:flex-col h-full  " >
 
-          <div className="bg-[#161616] rounded-lg border-2 border-textColor4 w-[98%] min-h-[rem] max-md:w-full p-10">
-            <h2 className="text-center text-xl font-bold mb-6 text-textColor3">
+          <div className="bg-[#161616] rounded-lg border-2 border-textColor4 w-[98%] min-h-[rem] max-md:w-full p-4">
+            <h2 className="text-center heading8 mb-6 text-textColor3">
               Under 499/-
             </h2>
             <div className="grid grid-cols-2 gap-10 items-center justify-center sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2">
               {services.map((service, index) => (
-                <div key={index} className="bg-gray-900 rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow duration-300">
+                <div key={index} className=" rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow duration-300">
                   <img src={service.image} alt={service.name} className="w-full h-28 object-contain" />
                   <div className="bg-black text-white py-2 text-center">
                     <h3 className="font-semibold">{service.name}</h3>
@@ -67,16 +67,16 @@ const Home = () => {
         <div className="w-full">
           <OverServices />
           <div className="flex items-center justify-evenly ">
-            <div className="" ><p className="threeText">UNLOCK YOUR BEST LOOK</p></div>
+            <div className="" ><p className="threeText heading6">UNLOCK YOUR BEST LOOK</p></div>
             <div className="w-full" ></div>
-            <div className=""><blockquote className="text-textColor1 font-bold text-4xl max-md:text-xl pr-[32]" >“Unleashing the Expertise of Top-notch Stylists for Exceptional Haircuts, Colors, and Styles!”</blockquote></div>
+            <div className=""><blockquote className="heading4 pr-[32]" >“Unleashing the Expertise of Top-notch Stylists for Exceptional Haircuts, Colors, and Styles!”</blockquote></div>
           </div>
         </div>
 
         <div className="mt-16">
           <div className="flex items-center justify-center gap-8 max-md:gap-4  ">
             <div className="h-1 w-24 bg-textColor4"></div>
-            <h2 className="max-md:text-lg max-md:font-normal mainheading">Subscribe To Watch On YouTube</h2>
+            <h2 className="max-md:text-lg max-md:font-normal mainheading max-sm:line-clamp-1">Subscribe To Watch On YouTube</h2>
             <div className="h-1 w-24 bg-textColor4"></div>
           </div>
           <div className=" border-2 p-6 border-textColor4 rounded-[14px] boxBorder mt-10 ">
@@ -121,7 +121,7 @@ const Home = () => {
 
 
         <div className="">
-          <p className="heading1">What our customers say</p>
+          <p className="heading8 text-textColor4 flex items-center justify-center mt-2">What our customers say</p>
 
           <div className="flex items-center justify-between p-10 max-md:flex-col bg-BackgroundColor6 rounded-3xl mt-6">
             <div className="" >

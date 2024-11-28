@@ -81,7 +81,7 @@ const SliderHome = () => {
           </div>
         </SwiperSlide>
       ))}
-      <div className="swiper-custom-pagination" />
+      {/* <div className="swiper-custom-pagination" /> */}
     </Swiper>
   );
 };
